@@ -5,21 +5,40 @@
 }
 
 body {
-    background-color: black;
-    color: white;
-}
-
-.main-wrapper {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    font-family: 'Lato', sans-serif;
 }
 
 .container {
     display: flex;
-    flex-wrap: wrap;
-    align-content: flex-start;
-    width: 600px;
-    height: 600px;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.box-left {
+    width: 35%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.box-right {
+    width: 65%;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.first-line img {
+    width: 50px;
+}
+
+.first-line {
+    background-color: gray;
+}
+
+.second-line {
+    background-color: blue;
+}
+
+.third-line {
+    background-color: blanchedalmond;
 }
